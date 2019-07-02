@@ -1,0 +1,35 @@
+{
+  "name": "fooman/magerun2-admin-roles",
+  "description": "Plugin for netz98 Magerun2 to handle admin roles",
+  "license": "MIT",
+  "keywords": [
+    "magento",
+    "magerun2"
+  ],
+  "require": {
+    "n98/magerun2": "^3.1.0",
+    "php": "~7.0.0 | ~7.1.0 | ~7.2.0"
+  },
+  "require-dev": {
+    "n98/magerun2-test-framework": "^1.0",
+    "phpunit/phpunit": "~4.1.0",
+    "squizlabs/php_codesniffer": "^3.4"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Fooman\\Magerun2\\AdminRoles\\": "src/Fooman/Magerun2/AdminRoles/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Fooman\\Magerun2\\AdminRolesTest\\": "tests/"
+    }
+  },
+  "prefer-stable": true
+}

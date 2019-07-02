@@ -1,0 +1,8 @@
+autoloaders:
+  Fooman\Magerun2\AdminRoles: %module%/src
+
+commands:
+  customCommands:
+    - Fooman\Magerun2\AdminRoles\RoleCreateCommand
+    - Fooman\Magerun2\AdminRoles\RoleAssignResourcesCommand
+    - Fooman\Magerun2\AdminRoles\RoleAssignUsersCommand

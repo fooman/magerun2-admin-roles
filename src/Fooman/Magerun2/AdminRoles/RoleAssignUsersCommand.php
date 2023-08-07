@@ -30,7 +30,7 @@ class RoleAssignUsersCommand extends AbstractMagentoCommand
                  self::OPTION_USERS,
                  'u',
                  InputOption::VALUE_REQUIRED,
-                 'Comma separated list of users to assign to role, replaces it existing list'
+                 'Comma separated list of users to assign to role, replaces existing list'
              );
     }
 

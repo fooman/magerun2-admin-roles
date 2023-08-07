@@ -60,7 +60,6 @@ class RoleCreateCommandTest extends TestCase
         );
     }
 
-
     private function prepareRoleFactoryMock()
     {
         $roleMock = $this->getMockBuilder(\Magento\Authorization\Model\Role::class)
